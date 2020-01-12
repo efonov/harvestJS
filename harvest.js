@@ -1,7 +1,7 @@
 const puppeteer = require("puppeteer");
 var GoogleSpreadsheet = require("google-spreadsheet");
 var creds = require("./credentials.json");
-var doc = new GoogleSpreadsheet("1fhnjMQ_M_jm9cMnNQWYhWlEauOGtRNUrN2HDyWXbpIg");
+var doc = new GoogleSpreadsheet("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 var gender = require("gender-guess");
 const download = require("image-downloader");
 
